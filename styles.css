@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.accueil{
+    color: black;
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;text-decoration: none;
+    font-size: large;
+    
+    
+}
+
+header{background-color: white; 
+    text-align: center;
+    
+    position: sticky;
+    top:0;
+    z-index: 100;
+    
+    
+}
+.logo{ width: 50px; 
+    display: flex;
+    top: 100px;
+    object-fit: cover;
+    
+
+
+} 
+
+.preparation{
+color: rgb(192, 14, 14);
+}
+  .icons{
+    display: flex;
+    gap: 10px;
+color: rgb(119, 29, 29);
+
+  }
+.etap{ padding: 20px;
+
+}
+header input{
+
+    width: 50%;
+    border-radius: 25px;
+}
+.nav{ color: black;
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+   
+    
+    font-size: large;
+   list-style: none;
+    }
+
+    .absolute{
+        position: absolute;
+        top: 20%;
+        left: 45%;
+        color: white;
+        object-fit: cover;
+       
+    }
+.img1{height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+.P1{
+    color:rgb(85, 67, 44);
+    font-size: larger;
+    border-radius: 15px;
+    padding:10px 25px  ;
+    background-color: #f0ffff94;
+
+
+   
+}
+.Recettes{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+.flex{display: flex;
+flex-wrap: wrap;
+
+}
+.between{
+    justify-content: space-between;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    color:#fff;
+    transition: background-color 0.6s ease;
+    padding: 20px 64px;
+    z-index: 10;
+}
+.bouton{
+    color: #fff;
+    text-decoration: none;
+}
+.BG6BLANC{
+    background-color: #f0ffff94;
+}
