@@ -65,8 +65,10 @@ header input{
         position: absolute;
         top: 20%;
         left: 45%;
-        color: white;
+        color: rgb(85, 67, 44);
         object-fit: cover;
+        background-color: #f0ffff94;
+        border-radius: 15px;
        
     }
 .img1{height: 600px;
@@ -78,15 +80,27 @@ header input{
     font-size: larger;
     border-radius: 15px;
     padding:10px 25px  ;
-    background-color: #f0ffff94;
-
-
-   
+    
 }
+article
+    {
+        color:rgb(85, 67, 44);
+        
+        border-radius: 15px;
+        padding:10px 25px  ;
+        background-color: #f0ffff94;
+        margin: 20px;
+    }
+    .img2{
+        width: 200px;
+        height: 200px;
+        
+    }
+
 .Recettes{
     text-decoration: none;
     list-style: none;
-    color: #fff;
+    color: rgb(85, 67, 44);
 }
 .flex{display: flex;
 flex-wrap: wrap;
@@ -100,15 +114,56 @@ header{
     top: 0;
     width: 100%;
     background-color: transparent;
-    color:#fff;
+    color:rgb(85, 67, 44);
     transition: background-color 0.6s ease;
-    padding: 20px 64px;
+    padding: 20px 74px;
     z-index: 10;
 }
 .bouton{
-    color: #fff;
+    color: rgb(85, 67, 44);
     text-decoration: none;
 }
 .BG6BLANC{
     background-color: #f0ffff94;
+}
+.button{
+    border-radius: 20px;
+    background-color:  #f0ffff94;
+    padding: 10px;
+    color: rgb(85, 67, 44);
+    text-decoration: none;
+    margin: 20px 10px;
+   padding: 10px;
+   display: inline-block;
+}
+
+
+#content{ 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card {
+    width: 300px;
+    margin-top: 32px;
+    padding: 8px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 12px black;
+}
+.card img{
+    width: 200px;
+}
+.card p{
+    margin-top: 16px ;
+    margin-bottom: 16px;
+}
+.section{
+    display: flex;
+}
+#produits {
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
 }

@@ -1,0 +1,88 @@
+{
+    "nomCommercial": "Palais du Chocolat",
+    "phraseAccroche": "Le chocolat qui éveille vos papilles",
+    "texteBouton": "Devis gratuit",
+    "listeBenefficesClients": [
+      "Des chocolats artisanaux de qualité supérieure, réalisés à partir d'ingrédients sélectionnés avec soin",
+      "Des saveurs uniques et originales, pour des sensations gustatives incomparables",
+      "Une attention particulière portée à la présentation des chocolats, pour des cadeaux gourmands inoubliables",
+      "Un service personnalisé et attentionné, pour répondre à toutes vos demandes et envies"
+    ],
+    "realisations": [
+      {
+        "nom": "Praliné croustillant",
+        "description": "Une ganache fondante au praliné, agrémentée d'éclats de noisettes croustillants. Un véritable délice pour les amateurs de chocolat et de fruits secs.",
+        "image":"https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/praline-croustillant.webp?v=1683011960311"
+      },
+      {
+        "nom": "Truffe au champagne",
+        "description": "Une ganache onctueuse et légèrement pétillante, enrobée de chocolat noir. Une saveur subtile et délicate, idéale pour les fêtes et les célébrations.",
+        "image":"https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/truffes-champagne.webp?v=1683011965466"
+      },
+      {
+        "nom": "Tablette de chocolat noir 70%",
+        "description": "Un chocolat noir intense et puissant, aux notes de cacao amer et de fruits secs. Un grand classique de la chocolaterie, à déguster seul ou à utiliser en cuisine.",
+        "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/tablette2.webp?v=1683011975013"
+      },
+      {
+        "nom": "Coffret de chocolats assortis",
+        "description": "Un assortiment de chocolats fins, sélectionnés avec soin par nos chocolatiers. Un cadeau gourmand et raffiné, qui fera plaisir à coup sûr.",
+        "image":"https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/coffret.webp?v=1683013276061"
+      },
+      {
+        "nom": "Chocolat chaud",
+        "description": "Un chocolat chaud onctueux et réconfortant, à déguster en toute occasion.","image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/chocolat-chaud.jpg?v=1683013278692"
+      },
+      {
+        "nom": "Mendiants",
+        "description": "Des chocolats aux fruits secs et fruits confits, pour une explosion de saveurs en bouche.",
+        "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/mendiants-chocolat-fruits-secs.jpeg?v=1683013276683"
+      },
+      {
+        "nom": "Chocolats fourrés",
+        "description": "Des chocolats fourrés à la crème de noisette, de caramel, ou de fruits, pour une expérience gourmande inoubliable.",
+        "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/bonbon-chocolat-fourre.jpg?v=1683013277844"
+      },
+      {
+        "nom": "Chocolats sans sucre",
+        "description": "Des chocolats sans sucre ajouté, pour une dégustation saine et équilibrée.",
+        "image":"https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/palets-sans-sucre-noir-200g.jpg?v=1683013277289"
+      },
+      {
+        "nom": "Chocolats vegan",
+        "description": "Des chocolats sans produits d'origine animale, pour une gourmandise respectueuse de l'environnement et des animaux.",
+        "image":"https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/chocolat-vegan-bio-sans-proteines-de-lait.jpg?v=1683013275471"
+      },
+      {
+        "nom": "Chocolats bio",
+        "description": "Des chocolats issus de l'agriculture biologique, pour une dégustation responsable et durable.",
+        "image":"https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/chocolats-bio.jpg?v=1683013279798"
+      },
+      {
+        "nom": "Chocolats du monde",
+        "description": "Des chocolats venus des quatre coins du monde, pour découvrir de nouvelles saveurs et voyager en suivant votre palais",
+        "image":"https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/chocolat-du-monde.jpg?v=1683013279276"
+      }
+    ],
+    "temoignages": [
+      {
+        "prenom": "Sophie",
+        "typePrestation": "Coffret cadeau personnalisé",
+        "commentaire": "Le coffret de chocolats que j'ai offert était magnifique et délicieux. Les saveurs étaient variées et originales, et la présentation était très soignée. Un grand merci au Palais du Chocolat pour ce cadeau parfait.",
+        "note": 5
+      },
+      {
+        "prenom": "Antoine",
+        "typePrestation": "Mariage",
+        "commentaire": "Les chocolats du Palais du Chocolat ont été un véritable succès lors de notre mariage. Tout le monde a adoré les saveurs raffinées et les présentations élégantes. Un grand bravo à toute l'équipe.",
+        "note": 5
+      },
+      {
+        "prenom": "Nicolas",
+        "typePrestation": "Achat en boutique",
+        "commentaire": "J'ai acheté une tablette de chocolat noir au Palais du Chocolat et je n'ai pas été déçu. Le chocolat était intense et puissant, avec des notes subtiles de fruits secs. Un vrai régal pour les papilles.",
+        "note": 4
+      }
+    ]
+  }
+  
