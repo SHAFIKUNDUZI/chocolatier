@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/*.accueil{
+.accueil{
     color: black;
     flex: auto;
     display: flex;
@@ -78,23 +78,7 @@ top: auto;
 .search{
    width: 300px;
 }
-*/
-header{
-    display: flex;
-    justify-content: space-between;
-    background-color: white; 
-    text-align: center;
-    
-    position: sticky;
-    top:0;
-    z-index: 100;
 
-}
-img{width: 10%;}
-nav{width: 30%;
-list-style: none;}
-input{width: 20%;}
-div{width: 20%;}
 
     .absolute{
         position: absolute;
