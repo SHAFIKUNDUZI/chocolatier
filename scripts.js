@@ -19,6 +19,10 @@ fetch("chocolatier.json")
       <img src="${p.image}"/>
       <h1>${p.nom}</h1>
       <p>${p.description}</p>
+      <a class="cliquer" href="https://www.patrickroger.com/en" clique ici>
+      ACHETER <i class="fa-solid fa-cookie-bite"></i>
+      
+    </a>
      
       </section>`;
     });
@@ -26,9 +30,24 @@ fetch("chocolatier.json")
     //j'ajoute mes choclats dans la div produits : 
     document.querySelector("#produits").innerHTML+=realisations
 
- let temoignages = "t";
+ let temoignages = "";
     data.temoignages.forEach((t) => {
-      temoignages += `<li> ${t.typePrestation} ${t.commentaire} ${t.note} ${t.prenom} </li>`;
+      temoignages += `<section class="card1">
+      <h1>${t.prenom}</h1>
+      <h3>${t.typePrestation}</h3> 
+      <p>${t.commentaire}</p>
+      <h4> <i class="fa-solid fa-face-smile"></i>${t.note}</h4>
+        </section>`;
     });
-     
+      document.querySelector("#temoignage").innerHTML+=temoignages
 }
+
+var map = L.map('map').setView([45.439695, 4.3871779], 13);
+        artoDB_DarkMatterNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+            subdomains: 'abcd',
+            maxZoom: 20
+        }).addTo(map);
+L.marker([34.5553 , 69.2075 ]).addTo(map)
+.bindPopup("<h1>kabaul </h1><p>kabul Ak13 </p>")
+.openPopup();5

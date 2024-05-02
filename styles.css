@@ -64,14 +64,17 @@ header input{
     .absolute{
         position: absolute;
         top: 20%;
-        left: 45%;
+        
         color: rgb(85, 67, 44);
         object-fit: cover;
         background-color: #f0ffff94;
         border-radius: 15px;
+        padding: 15px;
+        transform: translate(500px, -20%);
+        
        
     }
-.img1{height: 600px;
+.img1{height:400px;
     width: 100%;
     object-fit: cover;
 }
@@ -141,6 +144,7 @@ header{
 #content{ 
     display: flex;
     width: 100%;
+
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
@@ -151,9 +155,13 @@ header{
     padding: 8px;
     border-radius: 16px;
     box-shadow: 4px 4px 12px black;
+    justify-content: center;
 }
 .card img{
-    width: 200px;
+    width: 100%;
+    border-radius: 15px;
+    height: 200px;
+
 }
 .card p{
     margin-top: 16px ;
@@ -166,4 +174,51 @@ header{
     display: flex;
     flex-wrap: wrap;
     gap:10px;
+    justify-content: space-between;
 }
+.cliquer {
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color:  #f0ffff94;
+    color: rgb(85, 67, 44);
+    display: inline-block;
+    border-radius: 20px;
+  }
+  h2{
+    background-color:  #f0ffff94;
+    color: rgb(85, 67, 44);
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+   margin-top: 32px;
+  }
+  .card1 {
+    width: 300px;
+    margin-top: 32px;
+    padding: 8px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 12px black;
+}
+
+.card p{
+    margin-top: 16px ;
+    margin-bottom: 16px;
+}
+.section{
+    display: flex;
+}
+#temoignage{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: space-between;
+   }
+.container{
+    max-width : 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    
