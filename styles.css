@@ -197,6 +197,7 @@ header{
     color: rgb(85, 67, 44);
     display: inline-block;
     border-radius: 20px;
+
   }
   h2{
     background-color:  #f0ffff94;
@@ -267,6 +268,4 @@ header{
        
         justify-content: space-between;
     }
-    .input{
-        background-color: black;
-    }
+   

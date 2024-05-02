@@ -36,8 +36,9 @@ fetch("chocolatier.json")
       <h1>${t.prenom}</h1>
       <h3>${t.typePrestation}</h3> 
       <p>${t.commentaire}</p>
-      <h4> <i class="fa-solid fa-star"></i>${t.note}</h4>
+      <h4>${avis(t.note)}</h4>
         </section>`;
+     
     });
       document.querySelector("#temoignage").innerHTML+=temoignages
 
@@ -64,3 +65,16 @@ var map = L.map('map').setView([45.439695, 4.3871779], 13);
 L.marker([34.5553 , 69.2075 ]).addTo(map)
 .bindPopup("<h1>kabaul </h1><p>kabul Ak13 </p>")
 .openPopup();5
+
+
+function avis(note){
+  let chaine=""
+  for (let i=1; i<=note; i++){
+  chaine+="★"
+  }
+ 
+  for(let j=0; j<5-note;j++){
+    chaine+="☆"
+  }
+  return chaine
+}
