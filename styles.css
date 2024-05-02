@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.accueil{
+/*.accueil{
     color: black;
     flex: auto;
     display: flex;
@@ -28,7 +28,7 @@ header{background-color: white;
     display: flex;
     top: 100px;
     object-fit: cover;
-    
+  
 
 
 } 
@@ -60,10 +60,45 @@ header input{
     font-size: large;
    list-style: none;
     }
+   
+.Recettes{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(85, 67, 44);
+}
+.flex{display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+
+gap: 20px;
+top: auto;
+}
+.search{
+   width: 300px;
+}
+*/
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white; 
+    text-align: center;
+    
+    position: sticky;
+    top:0;
+    z-index: 100;
+
+}
+img{width: 10%;}
+nav{width: 30%;
+list-style: none;}
+input{width: 20%;}
+div{width: 20%;}
 
     .absolute{
         position: absolute;
-        top: 20%;
+        top: 30%;
         
         color: rgb(85, 67, 44);
         object-fit: cover;
@@ -73,6 +108,16 @@ header input{
         transform: translate(500px, -20%);
         
        
+    }
+    .button{
+        border-radius: 20px;
+        background-color:  #f0ffff94;
+        padding: 10px;
+        color: rgb(85, 67, 44);
+        text-decoration: none;
+        margin: 20px 10px;
+       padding: 10px;
+       display: inline-block;
     }
 .img1{height:400px;
     width: 100%;
@@ -100,15 +145,8 @@ article
         
     }
 
-.Recettes{
-    text-decoration: none;
-    list-style: none;
-    color: rgb(85, 67, 44);
-}
-.flex{display: flex;
-flex-wrap: wrap;
 
-}
+
 .between{
     justify-content: space-between;
 }
@@ -129,16 +167,7 @@ header{
 .BG6BLANC{
     background-color: #f0ffff94;
 }
-.button{
-    border-radius: 20px;
-    background-color:  #f0ffff94;
-    padding: 10px;
-    color: rgb(85, 67, 44);
-    text-decoration: none;
-    margin: 20px 10px;
-   padding: 10px;
-   display: inline-block;
-}
+
 
 
 #content{ 
@@ -220,5 +249,40 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
-
+#map {
+    height: 200px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+   margin-top: 32px;
+   
     
+    }
+    h1{
+        color: rgb(244, 28, 28);
+        
+    }
+    .card2 {
+        width: 180px;
+        margin-top: 32px;
+        padding: 8px;
+        border-radius: 16px;
+        box-shadow: 4px 4px 12px black;
+    display: flex;}
+    .container{display: flex;
+    }
+    #bene{
+        display: flex;
+        flex-wrap: wrap;
+        gap:10px;
+        justify-content: space-between;
+
+       }
+    .liste1{
+       
+       
+        justify-content: space-between;
+    }
+    .input{
+        background-color: black;
+    }

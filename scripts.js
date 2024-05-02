@@ -36,10 +36,23 @@ fetch("chocolatier.json")
       <h1>${t.prenom}</h1>
       <h3>${t.typePrestation}</h3> 
       <p>${t.commentaire}</p>
-      <h4> <i class="fa-solid fa-face-smile"></i>${t.note}</h4>
+      <h4> <i class="fa-solid fa-star"></i>${t.note}</h4>
         </section>`;
     });
       document.querySelector("#temoignage").innerHTML+=temoignages
+
+
+let bene = "";
+
+data.listeBenefficesClients.forEach(element => {
+  bene+= `<nav class="card2">
+<p>${element}</p>
+</nav>
+`
+});
+
+document.querySelector("#listeBenefficesClients").innerHTML+=bene
+
 }
 
 var map = L.map('map').setView([45.439695, 4.3871779], 13);
